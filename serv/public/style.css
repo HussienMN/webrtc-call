@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(151, 201, 194);
+    font-family: "Helvetica";
+  }
+  
+  h2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #ffffff;
+  }
+  
+  #video-chat-lobby {
+    text-align: center;
+    max-width: 700px;
+    background-color: #06878b;
+    margin: 30px auto;
+    border-radius: 6px;
+  }
+  #video-chat-room{
+    display: flex;
+    justify-content: center;
+  }
+  #user-video{
+    padding: 20px;
+  }
+  #peer-video{
+    padding: 20px;
+  }
+
+  #chat-window {
+    height: 300px;
+    overflow: auto;
+    background: #f9f9f9;
+  }
+  .btn-group{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .btn-group .button {
+    background-color: #1b18c5; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 10%;
+  }
+  #output p {
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+  }
+  
+  #feedback p {
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+  }
+  
+  #output strong {
+    color: #000000;
+  }
+  
+  label {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  input {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #eee;
+    display: block;
+    width: 100%;
+    background: rgb(255, 253, 253);
+    font-family: Nunito;
+    font-size: 22px;
+  }
+  
+  button {
+    background: #06878b;
+    color: rgb(244, 246, 248);
+    font-size: 18px;
+    padding: 12px 0;
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#photo {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:320px;
+  height:240px;
+}
