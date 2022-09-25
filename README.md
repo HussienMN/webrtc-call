@@ -2,10 +2,10 @@
 
 # webrtcStream
 Functional custom element
-<webrtc-peercall></webrtc-peercall>
+<webrtc-call></webrtc-call>
 
 # Example
-[Live Example](https://hussienmn.github.io/webrtc-peercall/).
+[Live Example](https://hussienmn.github.io/webrtc-call/).
 
 ## License
 
