@@ -60,6 +60,7 @@ import Peer from 'skyway-js'
 
 export default {
     name: 'webrtcMultiCall',
+    inheritAttrs: false,
     data: function(){
         return {
             Peer: this.Peer,
