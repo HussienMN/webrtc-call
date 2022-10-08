@@ -71,6 +71,7 @@ import io from 'socket.io-client'
 
 export default {
     name: 'webrtcComponent',
+    inheritAttrs: false,
     data: function(){
         return{
             joined: false,
