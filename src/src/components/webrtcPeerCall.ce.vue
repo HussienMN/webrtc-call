@@ -45,8 +45,10 @@
     </template>
     
     <script>
+    
     import Peer from 'skyway-js'
     export default {
+        inheritAttrs: false,
         name: 'webrtcPeerCall',
         data: function(){
             return{
