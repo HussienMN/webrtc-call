@@ -133,6 +133,7 @@
 <script >
 export default {
   name: "webrtcstream",
+  inheritAttrs: false,
   data: function () {
     return {
       localStream: null,
